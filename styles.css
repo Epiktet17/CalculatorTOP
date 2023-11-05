@@ -55,7 +55,7 @@ button{
 .number{
   background-color: #cce5ff;
 }
-.function{
+.operator{
   background-color: #ffd6cc;
 }
 .clear{
@@ -63,4 +63,15 @@ button{
 }
 .screen{
   background-color: #ffffcc;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  
+}
+.current{
+  font-size: 27px;
+}
+.previous{
+  font-size: 22px;
 }
